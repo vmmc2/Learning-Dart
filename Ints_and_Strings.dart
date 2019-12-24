@@ -35,6 +35,16 @@ int main(){
         'concatenation '
         "works even over line breaks";
     print(s1); //Vai printar: "String concatenation works even over line breaks"
+    //Another way to create a multi-line string: Use a triple quote with either single
+    //or double quotation marks:
+    var s2 = '''
+    You can creater
+    multi-line string just like this
+    ''';
+    print(s2);
+    //You can also create raw-string by prefixing it with r:
+    var s3 = r'In a raw string, not even \n gets special treatment...';
+    print(s3);
     
     return 0;
 }
