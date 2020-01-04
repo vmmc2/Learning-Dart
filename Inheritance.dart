@@ -55,7 +55,7 @@ class Parent{
 }
 
 class Child extends Parent{
-  @override
+  @override //redefine um metodo de uma superclass q foi herdada pela class atual
   void m1(int b){
     print("dale meu bom");
   }
